@@ -1,0 +1,20 @@
+def is_vowel(char):
+    return char.lower() in ['a', 'e', 'i', 'o', 'u']
+
+print(is_vowel('a'))
+print(is_vowel('A'))
+print(is_vowel('E'))
+print(is_vowel('e'))
+print(is_vowel('o'))
+print(is_vowel('O'))
+print(is_vowel('u'))
+print(is_vowel('U'))
+print(is_vowel('1'))
+print(is_vowel('d'))
+print(is_vowel('D'))
+print(is_vowel('F'))
+print(is_vowel(''))
+print(is_vowel(' '))
+print(is_vowel('/n'))
+print(is_vowel('\n'))
+print(is_vowel('$'))
